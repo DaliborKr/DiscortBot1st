@@ -10,6 +10,9 @@ client.on('message', msg => {
   if (msg.content === 'ping') {
     msg.reply('Pong!');
   }
+  if (msg.content === 'Daves') {
+    msg.reply('SMRDÍ!');
+  }
 });
 
 client.login(config.discord_token);
