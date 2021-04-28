@@ -13,6 +13,9 @@ client.on('message', msg => {
   if (msg.content === 'Daves') {
     msg.reply('SMRDÍ!');
   }
+  if (msg.content === 'Dalibor') {
+    msg.reply('Má průměrný PP!');
+  }
 });
 
 client.login(config.discord_token);
